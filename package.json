@@ -1,0 +1,16 @@
+{
+  "name": "grass",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Grass",
+  "licence": "UNLICENSED",
+  "author": "Mike Linkovich",
+  "scripts": {
+    "build-dev": "tsc",
+    "build-prod": "tsc && uglifyjs js/grass.js -cm -o js/grass.min.js && node build-index",
+    "clean": "rm js/*.* index.html"
+  },
+  "devDependencies": {
+    "uglify-js": "latest"
+  }
+}
