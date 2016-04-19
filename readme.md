@@ -43,7 +43,7 @@ The easy thing about using an axis-aligned rectangular patch is that you can mov
 
 So how to pack the data for each blade of grass? Using array instancing makes this pretty straightforward. A single blade of grass mesh, without any grass-like characteristics applied, could be thought of like this:
 
-![grass mesh](img/blade-description.png?raw=true)
+![grass mesh](img/blade-geometry.png?raw=true)
 
 Basically a rectangle sliced into 4 segments, giving us 10 vertices. But we want to render both sides of each blade with different shading, so that adds up to a total of 20 vertices and 48 indices for a blade.
 
