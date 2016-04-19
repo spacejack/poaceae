@@ -6,7 +6,7 @@
 
 ---
 
-## [Try the Demo!](http://www.spacejack.ca/projects/grass/)
+## [Try the Demo!](http://www.spacejack.ca/projects/poaceae/)
 
 `enter/return` toggles auto/manual camera control
 
